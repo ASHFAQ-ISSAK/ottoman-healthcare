@@ -8,5 +8,5 @@ function sendMail(){
 
 
 
-    emailjs.send("service_e4v3ntk","template_nmceav4",parms)
+    emailjs.send("service_e4v3ntk","template_nmceav4",parms).then(alert("Email sent!!"))
 }
