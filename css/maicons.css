@@ -2,9 +2,9 @@
   font-family: 'maicons';
   src:  url('../fonts/maicons.eot?c9nlkl');
   src:  url('../fonts/maicons.eot?c9nlkl#iefix') format('embedded-opentype'),
-    url('../fonts/maicons.ttf?c9nlkl') format('truetype'),
-    url('../fonts/maicons.woff?c9nlkl') format('woff'),
-    url('../fonts/maicons.svg?c9nlkl#maicons') format('svg');
+    url('../assets/fonts/maicons.ttf') format('truetype'),
+    url('../assets/fonts/maicons.woff') format('woff'),
+    url('../assets/fonts/maicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
