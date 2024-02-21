@@ -19,6 +19,17 @@
     <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
   
     <link rel="stylesheet" href="/css/theme.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+      emailjs.init({
+        publicKey: "ZVagfAWMYS0SIA1Tc",
+      });
+    })();
+  </script>
+  <script src="/assets/js/emailscript.js"></script>
   </head>
 <body>
 
@@ -121,7 +132,7 @@
             <textarea id="message" class="form-control" rows="8" placeholder="Enter Message.."></textarea>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary wow zoomIn">Send Message</button>
+        <button type="submit" class="btn btn-primary wow zoomIn" onclick="sendMail()">Send Message</button>
       </form>
     </div>
   </div>
